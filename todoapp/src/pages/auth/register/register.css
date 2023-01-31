@@ -1,0 +1,40 @@
+.register-form-container{
+    width: 100%;
+    background-image: linear-gradient(180deg,var(--bs-purple),#df7dae );
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.register-form-wrapper{
+    max-width: 40%;
+    width:400px;
+    margin: 0 auto;
+    padding: 40px;
+    background-image: linear-gradient(45deg, var(--bs-white), var(--bs-border-color));
+}
+.register-form-wrapper h4{
+    text-align: center;
+}
+.register-btn-wrapper{
+    width: 100%;
+    text-align: center;
+}
+.register-btn-wrapper button[type=submit]{
+    margin-right: 10px;
+}
+.register-btn-wrapper button[type=button]{
+    margin-left: 20px !important;
+}
+.error-message{
+    color: red;
+    font-size: 13px;
+    padding: 5px;
+}
+.already-account{
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+}
+.form-field .form-label{
+    font-size: 14px !important;
+}

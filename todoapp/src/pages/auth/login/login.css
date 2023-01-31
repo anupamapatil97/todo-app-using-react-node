@@ -1,0 +1,46 @@
+.login-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(180deg,var(--bs-purple),#df7dae );
+
+}
+.login-wrapper{
+    width: 50%;
+    margin: 0 auto;
+    background-image: linear-gradient(45deg, var(--bs-white), var(--bs-border-color));
+    padding: 50px;
+    box-shadow: 1px 2px 3px gray;
+}
+.form-field{
+    height: 100px;
+}
+.form-field .form-label{
+    font-size: 14px;
+}
+
+.login-error-message{
+    color: red;
+    font-size: 13px;
+    padding: 5px;
+}
+.login-error{
+    height: 30px;
+    text-align: center;
+}
+.create-account{
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.login-btn-wrapper button[type=submit]{
+    margin-right: 10px;
+    width: 200px;
+}
+.login-btn-wrapper button[type=button]{
+    margin-left: 20px !important;
+    width: 200px;
+
+}
